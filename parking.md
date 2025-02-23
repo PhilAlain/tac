@@ -15,13 +15,15 @@ I recommend their parking at 46 Rue du Chateau des Rentiers
     Zenpark website
 </a>
 
+
 **Street parking** 
 
-Street parking is possible, and you can pay using the PayByPhone app. The price is €8 for 2 hours (you can pay remotely while visiting Paris). The daily cost is €40.
+Street parking is possible, and you can pay using the PayByPhone app. The price is €8 for 2 hours, but goes up the longer you stay. The price can also be prohibitive for SUVs. 
+
 
 **Electric car**
 
-If you have an electric car, street parking is free, but with restrictions !
+If you have an electric car, street parking is free, but many restrictions apply !
 Please visit the paris website for details.
 
 <a href="https://maps.app.goo.gl/s9ykRs5zeyBarcKZ9" style="display:inline-block; padding:3px 5px; font-size:10px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px;">
@@ -30,7 +32,7 @@ Please visit the paris website for details.
 
 **Tickets and fines**
 
-Please note, the automatic fine process is extremely efficient in Paris (special cars with cameras issue automatic fines that you receive later). They cost €50 per day, so very close to the daily parking cost.
+The automatic fine process is extremely efficient in Paris (special cars with cameras issue automatic fines that you receive later). Beware...
 
 I hope this helps.
 
