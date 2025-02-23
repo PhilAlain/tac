@@ -1,6 +1,5 @@
 # Selected addresses nearby
-## Grocery Shopping:
-### Local Shops ###
+## Local Shops ##
 
 **Carrefour city** (small supermarket)
 
@@ -26,7 +25,6 @@ Rue de Tolbiac, then Rue de Patay towards Notre Dame Church
     View on Google Maps
 </a>
 
-
 **Asian specialties, Tang Freres**
 
 168 Avenue de Choisy 
@@ -35,7 +33,6 @@ Rue de Tolbiac, then Rue de Patay towards Notre Dame Church
     View on Google Maps
 </a>
 
-
 **Picard (Frozen Food Store)**
 
 58-60 Rue de Tolbiac 
@@ -43,7 +40,6 @@ Rue de Tolbiac, then Rue de Patay towards Notre Dame Church
 <a href="https://maps.app.goo.gl/PG1EmW3DqwSgzJwh9" style="display:inline-block; padding:3px 5px; font-size:10px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px;">
     View on Google Maps
 </a>
-
 
 **Wine Shop - La Cave de Tolbiac** 
 
@@ -77,43 +73,76 @@ Place Jeanne d'Arc (every Sunday and Thursday morning)
     View on Google Maps
 </a>
 
-**Grocery Store** Potager City 77 Rue de Tolbiac
+**Grocery Store Potager City**
 
-**Bakery** Farinez'vous 19 Rue du Château des Rentiers
+77 Rue de Tolbiac
 
-**Bakery** Maison Michel 62 Rue Albert (both bakeries are closed on week-ends)
+<a href="https://maps.app.goo.gl/ZhyMK22JdFuQAYoH7" style="display:inline-block; padding:3px 5px; font-size:10px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px;">
+    View on Google Maps
+</a>
+
+**Bakery Farinez'vous**
+
+19 Rue du Château des Rentiers
+
+<a href="https://maps.app.goo.gl/gxTHK5LKn9zM6jXg7" style="display:inline-block; padding:3px 5px; font-size:10px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px;">
+    View on Google Maps
+</a>
+
+**Bakery Maison Michel**
+
+62 Rue Albert (both bakeries are closed on week-ends)
+
+<a href="https://maps.app.goo.gl/1RFezMMpUeUTSsfg8" style="display:inline-block; padding:3px 5px; font-size:10px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px;">
+    View on Google Maps
+</a>
 
 
-This is a new page.
+## Restaurants and Carry-out ##
 
-## Section 2
-More content here.
+**French Bistro Boria**
 
-[Back to Home](index.html)
+43 Rue du Chateau des Rentiers
+
+<a href="https://maps.app.goo.gl/HZgn9QE4pjNfWB2q7" style="display:inline-block; padding:3px 5px; font-size:10px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px;">
+    View on Google Maps
+</a>
+
+**French Bistro and Salads (lunch on weekdays only): Association Aurore**
+
+10-18 Rue des Terres au Curé
+
+<a href="https://maps.app.goo.gl/B7mGbHX94DUh8Jvt6" style="display:inline-block; padding:3px 5px; font-size:10px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px;">
+    View on Google Maps
+</a>
+
+**Asian Cuisine (Takeaway): Bo-bun 2 go**
+
+83 Rue du Chateau des Rentiers
+
+<a href="https://maps.app.goo.gl/qMaNb7zSmaupjBBV8" style="display:inline-block; padding:3px 5px; font-size:10px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px;">
+    View on Google Maps
+</a>
+
+**Asian Cuisine (Takeaway): Chez Madame Lin**
+
+82 Rue Albert
+
+<a href="https://maps.app.goo.gl/vykddLTcJNB5PYnaA" style="display:inline-block; padding:3px 5px; font-size:10px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px;">
+    View on Google Maps
+</a>
+
+**Italian Food (Large place) : La Felicità**
+5 Parvis Alan Turing
+
+<a href="https://maps.app.goo.gl/CvfZzfwVJZcpQxqw9" style="display:inline-block; padding:3px 5px; font-size:10px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px;">
+    View on Google Maps
+</a>
 
 
-Hello,
 
-Here is a selection of addresses in the neighborhood.
-
-Restaurants:
-
-French Bistro: Boria - 43 Rue du Chateau des Rentiers, 75013 Paris 
-
-French Bistro and Salads (lunch on weekdays only): Association Aurore - 10-18 Rue des Terres au Curé, 75013 Paris 
-
-Asian Cuisine (Takeaway): Bo-bun 2 go - 83 Rue du Chateau des Rentiers, 75013 Paris 
-
-Asian Cuisine (Takeaway): Chez Madame Lin - 82 Rue Albert, 75013 Paris
-
-Italian Food (Large place) : La Felicità 5 Parvis Alan Turing, 75013 Paris
-
-There you go, I hope this little selection will help you and allow you to discover the local merchants in the neighborhood.
+I hope this little selection will help you and allow you to discover the local merchants in the neighborhood.
 
 Best regards,
 
 Phil
-
-+33 6 99 43 44 55
-
-Artist's Home🏠 - 6 rue des Terres au Curé - 75013 Paris
