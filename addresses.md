@@ -1,4 +1,4 @@
-# Here is a selection of addresses in the neighborhood
+# Selected addresses nearby
 <h1 class="large-header">Artist's Home</h1>
 
 ## Grocery Shopping:
