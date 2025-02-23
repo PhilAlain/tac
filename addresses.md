@@ -1,8 +1,10 @@
 # Selected addresses nearby
 ## Grocery Shopping:
 ### Local Shops ###
-**Many local shops** Rue de Tolbiac, then Rue de Patay towards Notre Dame Church
-**[View on Google Maps](https://maps.app.goo.gl/59MngQN7t3Cmtd9z5)
+**Many local shops** Rue de Tolbiac, then Rue de Patay towards Notre Dame Church**
+<a href="https://maps.app.goo.gl/59MngQN7t3Cmtd9z5" style="display:inline-block; padding:10px 20px; font-size:16px; color:#fff; background-color:#007BFF; text-align:center; text-decoration:none; border-radius:5px;">
+    View on Google Maps
+</a>
 
 **Carrefour city** (small supermarket): 72-76 Rue du Chateau des Rentiers 
 
