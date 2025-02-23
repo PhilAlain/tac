@@ -1,7 +1,7 @@
 # Selected addresses nearby
 ## Local Shops ##
 
-**Carrefour city** (small supermarket)
+**Carrefour city (small supermarket)**
 
 72-76 Rue du Chateau des Rentiers
 
