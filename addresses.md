@@ -1,9 +1,8 @@
 # Selected addresses nearby
-<h1 class="large-header">Artist's Home</h1>
-
 ## Grocery Shopping:
 ### Local Shops ###
-**Many local shops** Rue de Tolbiac, then Rue de Patay towards Notre Dame Church 
+**Many local shops** Rue de Tolbiac, then Rue de Patay towards Notre Dame Church
+**[View on Google Maps](https://maps.app.goo.gl/59MngQN7t3Cmtd9z5)
 
 **Carrefour city** (small supermarket): 72-76 Rue du Chateau des Rentiers 
 
