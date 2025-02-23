@@ -1,8 +1,9 @@
 # Selected addresses nearby
 ## Grocery Shopping:
 ### Local Shops ###
-**Many local shops** Rue de Tolbiac, then Rue de Patay towards Notre Dame Church**
-<a href="https://maps.app.goo.gl/59MngQN7t3Cmtd9z5" style="display:inline-block; padding:10px 20px; font-size:16px; color:#fff; background-color:#007BFF; text-align:center; text-decoration:none; border-radius:5px;">
+**Many local shops** Rue de Tolbiac, then Rue de Patay towards Notre Dame Church
+
+<a href="https://maps.app.goo.gl/59MngQN7t3Cmtd9z5" style="display:inline-block; padding:5px 10px; font-size:12px; color:#fff; background-color:#159957; text-align:center; text-decoration:none; border-radius:5px;">
     View on Google Maps
 </a>
 
