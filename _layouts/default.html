@@ -1,11 +1,54 @@
+To ensure the styles of the `jekyll-theme-cayman` theme are included directly in your `_layouts/default.html`, you can manually copy the CSS styles from the theme into a `<style>` tag within your HTML.
+
+Here’s how you can modify your `_layouts/default.html` to include the theme's styles directly:
+
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
+    <style>
+      /* Include the necessary styles from jekyll-theme-cayman */
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #333;
+        background-color: #fff;
+      }
+      .page-header {
+        padding: 2rem 0;
+        background-color: #f6f8fa;
+        text-align: center;
+      }
+      .project-name {
+        margin: 0;
+        font-size: 2.25rem;
+        font-weight: 600;
+      }
+      .project-tagline {
+        margin: 0;
+        font-size: 1.5rem;
+        color: #6a737d;
+      }
+      .main-content {
+        max-width: 60rem;
+        margin: 3rem auto;
+        padding: 0 1.5rem;
+      }
+      .site-footer {
+        padding: 2rem 0;
+        text-align: center;
+        font-size: 0.875rem;
+        color: #6a737d;
+      }
+      .site-footer a {
+        color: inherit;
+        text-decoration: none;
+      }
+    </style>
   </head>
   <body>
     <header class="page-header" style="background-image: url('{{ "/assets/img/banner_6.jpg" | relative_url }}');">
@@ -20,3 +63,6 @@
     </footer>
   </body>
 </html>
+```
+
+This will apply the styles directly within your HTML file, bypassing the need for an external stylesheet. Adjust the CSS styles as needed to match the theme's original appearance.
