@@ -1,19 +1,20 @@
 # Selected addresses nearby
 ## Grocery Shopping:
 ### Local Shops ###
-**Many local shops** 
-
-Rue de Tolbiac, then Rue de Patay towards Notre Dame Church
-
-<a href="https://maps.app.goo.gl/59MngQN7t3Cmtd9z5" style="display:inline-block; padding:3px 5px; font-size:10px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px;">
-    View on Google Maps
-</a>
 
 **Carrefour city** (small supermarket)
 
 72-76 Rue du Chateau des Rentiers
 
 <a href="https://maps.app.goo.gl/wxrpL9SsRxs31j6K8" style="display:inline-block; padding:3px 5px; font-size:10px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px;">
+    View on Google Maps
+</a>
+
+**Many local shops** 
+
+Rue de Tolbiac, then Rue de Patay towards Notre Dame Church
+
+<a href="https://maps.app.goo.gl/59MngQN7t3Cmtd9z5" style="display:inline-block; padding:3px 5px; font-size:10px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px;">
     View on Google Maps
 </a>
 
@@ -26,13 +27,40 @@ Rue de Tolbiac, then Rue de Patay towards Notre Dame Church
 </a>
 
 
-**Asian specialties, Tang Freres** 168 Avenue de Choisy 
+**Asian specialties, Tang Freres**
 
-**Picard (Frozen Food Store)** 58-60 Rue de Tolbiac 
+168 Avenue de Choisy 
 
-**Wine Shop - La Cave de Tolbiac** 45 Rue de Tolbiac 
+<a href="https://maps.app.goo.gl/3mYCGbgyYgTxNaXo7" style="display:inline-block; padding:3px 5px; font-size:10px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px;">
+    View on Google Maps
+</a>
 
-**Jeanne d'Arc Market** Place Jeanne d'Arc (every Sunday and Thursday morning) 
+
+**Picard (Frozen Food Store)**
+
+58-60 Rue de Tolbiac 
+
+<a href="https://maps.app.goo.gl/PG1EmW3DqwSgzJwh9" style="display:inline-block; padding:3px 5px; font-size:10px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px;">
+    View on Google Maps
+</a>
+
+
+**Wine Shop - La Cave de Tolbiac** 
+
+45 Rue de Tolbiac 
+
+<a href="https://maps.app.goo.gl/CYeBXTm89gnfiGUM9" style="display:inline-block; padding:3px 5px; font-size:10px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px;">
+    View on Google Maps
+</a>
+
+**Jeanne d'Arc Market**
+
+Place Jeanne d'Arc (every Sunday and Thursday morning) 
+
+<a href="https://maps.app.goo.gl/9rRZYhM5T7ngENgY7" style="display:inline-block; padding:3px 5px; font-size:10px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px;">
+    View on Google Maps
+</a>
+
 
 **Local Fruit and Vegetable Shop** Chez Noël 88 Rue Albert 
 
