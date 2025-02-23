@@ -61,10 +61,21 @@ Place Jeanne d'Arc (every Sunday and Thursday morning)
     View on Google Maps
 </a>
 
+**Local Fruit and Vegetable Shop Chez Noël**
 
-**Local Fruit and Vegetable Shop** Chez Noël 88 Rue Albert 
+88 Rue Albert 
 
-**Larger Fruit and Vegetable Shop** Natureenville 19 Rue Richemont 
+<a href="https://maps.app.goo.gl/vYxxSJbppwg9wF8EA" style="display:inline-block; padding:3px 5px; font-size:10px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px;">
+    View on Google Maps
+</a>
+
+**Larger Fruit and Vegetable Shop Natureenville** 
+
+19 Rue Richemont 
+
+<a href="https://maps.app.goo.gl/k4pWVV9Ys23gq7vk6" style="display:inline-block; padding:3px 5px; font-size:10px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px;">
+    View on Google Maps
+</a>
 
 **Grocery Store** Potager City 77 Rue de Tolbiac
 
