@@ -1,6 +1,12 @@
 .large-header {
+  font-size: 3em; /* Increase the size for better visibility */
+  font-family: 'Arial', sans-serif; /* Example font family */
+  color: #333; /* Example color */
+  font-weight: bold; /* Ensure the font weight is bold */
+}
+/* .large-header {
   font-size: 2em; /* Adjust the size as needed */
   font-family: inherit;
   color: inherit;
   font-weight: inherit;
-}
+} */
