@@ -6,19 +6,19 @@ Let’s identify them: three are similar and have colored rings, while one is di
 
 ## Key - no colored ring ##
 
-The key without a colored ring opens the front gate.
+**The key without a colored ring opens the front gate.**
 
 ## <span style="color:blue;">Key - blue ring</span> ##
 
-This key opens the living room and kitchen doors.
+**This key opens the living room and kitchen doors.**
 
 ## <span style="color:purple;">Key - purple ring</span> ##
 
-The purple key opens the downstairs bedroom.
+**The purple key opens the downstairs bedroom.**
 
 ## <span style="color:green;">Key - green ring</span> ##
 
-The green key opens both upstairs doors (bedrooms and bathroom).
+**The green key opens both upstairs doors (bedrooms and bathroom).**
 
 ## Enter the living room ##
 
