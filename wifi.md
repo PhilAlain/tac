@@ -1,7 +1,12 @@
-# Wifi
+# Wifi #
 
-Network: ArtistsHome
-Password : 6TerresauCure
+### Network: ###
+
+ArtistsHome
+
+### Password: ###
+
+6TerresauCure
 
 
 ![WiFi Image](assets/img/wifi.png)
