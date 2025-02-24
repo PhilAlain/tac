@@ -6,7 +6,8 @@
 
 Originally part of the commune of Ivry, the area now known as Rue des Terres-au-Curé was once expansive fields owned by a priest, which led to its name translating to "Land of the Priest." The extensive nature of these lands necessitated granting passage rights to local residents. This pathway was documented on the 1812 cadastral plan as the "chemin de la Coupe-des-Terres-au-Curé."
 
-![Colorized postcard Rue des Terres-au-Curé](assets/img/terres_1_1.jpg)
+![Postcard Rue des Terres-au-Curé](assets/img/terres_1_1.jpg)
+*This postcard captures Rue des Terres-au-Curé from the same perspective as if you were standing at the entrance of the street. The house where you're staying is likely just behind the cart, on the right-hand side.*
 
 **Integration into Paris and Urban Development**
 
