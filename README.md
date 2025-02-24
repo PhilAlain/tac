@@ -10,14 +10,14 @@ If you have any suggestions for improvement, we'd love to hear them! 😊
 ### Shops and restaurants ###
 A list of Selected addresses nearby
 
-<a href="https://https://philalain.github.io/tac/addresses/" style="display:inline-block; padding:5px 8px; font-size:10px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px;">
+<a href="https://https://philalain.github.io/tac/addresses/" style="display:inline-block; padding:10px 20px; font-size:14px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px; width:200px">
     Shops and Restaurants
 </a>
 
 ### Parking ###
 Tips for parking
 
-<a href="https://https://philalain.github.io/tac/parking/" style="display:inline-block; padding:5px 8px; font-size:10px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px;">
+<a href="https://https://philalain.github.io/tac/parking/" style="display:inline-block; padding:10px 20px; font-size:14px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px; width:200px">
     Parking
 </a>
 
