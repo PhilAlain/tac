@@ -17,7 +17,11 @@ The 13th arrondissement itself has undergone significant transformations. Once a
 
 In the 16th century, the Gobelin family established dyeing workshops in the area, leading to the renowned Manufacture des Gobelins tapestry factory. This industrial activity attracted workers and contributed to the neighborhood's development.
 
-In the latter half of the 20th century, the arrondissement experienced further changes with urban renewal projects, including the "Italie 13" initiative inspired by Le Corbusier's urban theories. This project aimed to reshape areas around Butte-aux-Cailles, Rue Nationale, and Boulevard Vincent-Auriol, resulting in the construction of several high-rise buildings, particularly in the Olympiades district. citeturn0search16
+In the latter half of the 20th century, the arrondissement experienced further changes with urban renewal projects, including the "Italie 13" initiative inspired by Le Corbusier's urban theories. This project aimed to reshape areas around Butte-aux-Cailles, Rue Nationale, and Boulevard Vincent-Auriol, resulting in the construction of several high-rise buildings, particularly in the Olympiades district.
+
+![Terres Image](assets/img/terres_2.jpg)
+
+**Modern-Day 13th Arrondissement**
 
 **Modern-Day 13th Arrondissement**
 
