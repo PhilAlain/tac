@@ -26,6 +26,10 @@ Tips for parking
 ### Keys ####
 How to use your keys
 
+<a href="https://philalain.github.io/tac/keys/" style="display:inline-block; padding:10px 20px; font-size:14px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px; width:100px">
+    Keys
+</a>
+
 ### WiFi ####
 How could I live without Internet 
 
