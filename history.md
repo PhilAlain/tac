@@ -25,8 +25,8 @@ Today, the 13th arrondissement is a vibrant and diverse area, home to Paris's ma
 
 **Historical Significance of Artist's Home**
 
-The place you are enjoying is a residence on Rue des Terres-au-Curé, originally built in the early 20th century, once served as an electricity shop. The shop occupied the right side of the building (now the ground-floor room), while the hangar, which served as a storage area, has since been transformed into the living room. The residential part of the house was located at the back of the courtyard, now home to the kitchen and upper levels.
+The place you are enjoying is a residence on Rue des Terres-au-Curé, originally built in the early 20th century, once served as an electricity shop. The shop occupied the left side of the building (now the ground-floor room), while the hangar, which served as a storage area, has since been an atelier d'artiste and further transformed into the living room. The residential part of the house was located at the back of the courtyard, now home to the kitchen and upper levels.
 
 In 1996, the space became an artist's studio (Atelier d'artiste), a role it maintained until 2008. In 2023, its artistic spirit was revived, restoring the creative essence of its past.
 
-This rich tapestry of history highlights the dynamic evolution of Rue des Terres-au-Curé and its surrounding neighborhood, showcasing a blend of historical significance and modern development. 
+These history highlights show the dynamic evolution of Rue des Terres-au-Curé and its surrounding neighborhood, showcasing a blend of historical significance and modern development. 
