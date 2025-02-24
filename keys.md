@@ -4,19 +4,19 @@ Your first set of keys is in the keybox and there is a second set on the small r
 Let’s identify them: three are similar and have colored rings, while one is different.
 
 
-## Key with no colored ring ##
+## Key - no colored ring ##
 
 The key without a colored ring opens the front gate.
 
-## <span style="color:green;">Key with a green ring</span> ##
+## <span style="color:blue;">Key - blue ring</span> ##
 
 This key opens the living room and kitchen doors.
 
-## <span style="color:purple;">Key with a purple ring</span> ##
+## <span style="color:purple;">Key - purple ring</span> ##
 
 The purple key opens the downstairs bedroom.
 
-## <span style="color:green;">Key with a green ring</span> ##
+## <span style="color:green;">Key - green ring</span> ##
 
 The green key opens both upstairs doors (bedrooms and bathroom).
 
