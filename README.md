@@ -1,5 +1,5 @@
 # House Manual #
-Welcome to our Artist's Home away from home!
+Welcome to your Artist's Home away from home!
 
 This guide is here to enhance your stay and provide you with all the essential information for a smooth and enjoyable experience.
 
