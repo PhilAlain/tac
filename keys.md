@@ -8,7 +8,7 @@ Let’s identify them: three are similar and have colored rings, while one is di
 
 The key without a colored ring opens the front gate.
 
-## <h2 style="color:blue;">Key with a blue ring</h2> ##
+## <span style="color:blue;">Key with a green ring</span> ##
 
 This key opens the living room and kitchen doors.
 
