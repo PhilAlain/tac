@@ -1,8 +1,8 @@
 # House Manual #
-Welcome to your home away from home!
+Welcome to our Artist's Home away from home!
 This guide is here to enhance your stay and provide you with all the essential information for a smooth and enjoyable experience.
 If you have any suggestions for improvement, we'd love to hear them! 😊
-mailto:philippe_martineau@hotmail.com
+(philippe_martineau@hotmail.com)
 
 ### Shops and restaurants ###
 A list of Selected addresses nearby
