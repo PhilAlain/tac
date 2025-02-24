@@ -5,19 +5,21 @@ This guide is here to enhance your stay and provide you with all the essential i
 
 If you have any suggestions for improvement, we'd love to hear them! 😊
 
-[philippe_martineau@hotmail.com]
+<a href="mailto:philippe_martineau@hotmail.com" style="display:inline-block; padding:10px 20px; font-size:14px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px;">
+    Email Us
+</a>
 
 ### Shops and restaurants ###
 A list of Selected addresses nearby
 
-<a href="https://https://philalain.github.io/tac/addresses/" style="display:inline-block; padding:10px 20px; font-size:14px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px; width:200px">
+<a href="https://philalain.github.io/tac/addresses/" style="display:inline-block; padding:10px 20px; font-size:14px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px; width:200px">
     Shops and Restaurants
 </a>
 
 ### Parking ###
 Tips for parking
 
-<a href="https://https://philalain.github.io/tac/parking/" style="display:inline-block; padding:10px 20px; font-size:14px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px; width:200px">
+<a href="https://philalain.github.io/tac/parking/" style="display:inline-block; padding:10px 20px; font-size:14px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px; width:200px">
     Parking
 </a>
 
