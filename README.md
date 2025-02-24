@@ -9,10 +9,18 @@ If you have any suggestions for improvement, we'd love to hear them! 😊
     Email Me
 </a>
 
-### Shops and restaurants ###
-A list of Selected addresses nearby
+### Shops ###
+Selected addresses nearby
 
-<a href="https://philalain.github.io/tac/addresses/" style="display:inline-block; padding:10px 20px; font-size:14px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px; width:100px">
+<a href="https://philalain.github.io/tac/shops/" style="display:inline-block; padding:10px 20px; font-size:14px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px; width:100px">
+    Shops
+</a>
+
+
+### Restaurants ###
+Nearby Restaurants
+
+<a href="https://philalain.github.io/tac/restaurants/" style="display:inline-block; padding:10px 20px; font-size:14px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px; width:100px">
     Shops and Restaurants
 </a>
 
