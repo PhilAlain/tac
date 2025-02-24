@@ -44,6 +44,6 @@ These history highlights show the dynamic evolution of Rue des Terres-au-Curé a
 ## Video about the 13th arrondissement
 
 <video width="640" height="360" controls>
-  <source src="assets/img/paris_31.mp4" type="video/mp4">
+  <source src="assets/img/paris_13.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
