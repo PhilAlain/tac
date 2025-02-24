@@ -40,3 +40,10 @@ The place you are enjoying is a residence on Rue des Terres-au-Curé, originally
 In 1996, the space became an artist's studio (Atelier d'artiste), a role it maintained until 2008. In 2023, its artistic spirit was revived, restoring the creative essence of its past.
 
 These history highlights show the dynamic evolution of Rue des Terres-au-Curé and its surrounding neighborhood, showcasing a blend of historical significance and modern development. 
+
+## Video about the 13th arrondissement
+
+<video width="640" height="360" controls>
+  <source src="assets/img/paris_31.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
