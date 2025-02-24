@@ -3,10 +3,6 @@ Welcome to your Artist's Home away from home!
 
 This guide is here to enhance your stay and provide you with all the essential information for a smooth and enjoyable experience.
 
-<a href="mailto:philippe_martineau@hotmail.com" style="display:inline-block; padding:10px 20px; font-size:14px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px;">
-    Email Me
-</a>
-
 ### Shops ###
 Selected addresses nearby
 
@@ -40,4 +36,9 @@ How to use your keys
 How could I live without Internet 
 
 If you have any suggestions for improvement, we'd love to hear them! 😊
+
 Phil
+
+<a href="mailto:philippe_martineau@hotmail.com" style="display:inline-block; padding:10px 20px; font-size:14px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px;">
+    Email Me
+</a>
