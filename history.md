@@ -6,10 +6,13 @@
 
 Originally part of the commune of Ivry, the area now known as Rue des Terres-au-Curé was once expansive fields owned by a priest, which led to its name translating to "Land of the Priest." The extensive nature of these lands necessitated granting passage rights to local residents. This pathway was documented on the 1812 cadastral plan as the "chemin de la Coupe-des-Terres-au-Curé."
 
+![Colorized postcard Rue des Terres-au-Curé](assets/img/terres_1_1.jpg)
 
 **Integration into Paris and Urban Development**
 
 In 1863, the street was incorporated into Paris's road network. The construction of the Petite Ceinture railway subsequently divided the original path into two sections. The portion leading to what is now Boulevard Masséna became known as "Square Masséna," while the remaining section was officially named "Rue des Terres-au-Curé" on February 1, 1877.
+
+
 
 **The more general transformation of the 13th Arrondissement**
 
