@@ -47,3 +47,5 @@ These history highlights show the dynamic evolution of Rue des Terres-au-Curé a
   <source src="assets/img/paris_13.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+
