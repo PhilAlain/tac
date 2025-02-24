@@ -5,7 +5,7 @@ This guide is here to enhance your stay and provide you with all the essential i
 
 If you have any suggestions for improvement, we'd love to hear them! 😊
 
-(philippe_martineau@hotmail.com)
+[philippe_martineau@hotmail.com]
 
 ### Shops and restaurants ###
 A list of Selected addresses nearby
