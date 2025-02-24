@@ -19,7 +19,7 @@ Selected addresses nearby
 Nearby Restaurants
 
 <a href="https://philalain.github.io/tac/restaurants/" style="display:inline-block; padding:10px 20px; font-size:14px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px; width:100px">
-    Shops and Restaurants
+    Restaurants
 </a>
 
 ### Parking ###
