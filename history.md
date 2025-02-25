@@ -43,7 +43,11 @@ These history highlights show the dynamic evolution of Rue des Terres-au-Curé a
 
 ## Video about the 13th arrondissement
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/NsU_QqSbaCk" frameborder="0" allowfullscreen></iframe>
+<video width="640" height="360" controls>
+  <source src="http://54.38.70.127:8080/compressed.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<!-- <iframe width="640" height="360" src="https://www.youtube.com/embed/NsU_QqSbaCk" frameborder="0" allowfullscreen></iframe> -->
 
 
 
