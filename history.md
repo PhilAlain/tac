@@ -6,9 +6,7 @@
 
 Originally part of the commune of Ivry, the area now known as Rue des Terres-au-Curé was once expansive fields owned by a priest, which led to its name translating to "Land of the Priest." The extensive nature of these lands necessitated granting passage rights to local residents. This pathway was documented on the 1812 cadastral plan as the "chemin de la Coupe-des-Terres-au-Curé."
 
-<div style="max-width: 100%; height: auto;">
-  <img src="assets/img/terres_1_1.jpg" style="width: 100%; height: auto;">
-</div>
+![Postcard Rue des Terres-au-Curé](assets/img/terres_1_1.jpg)
 
 *This postcard captures Rue des Terres-au-Curé from the same perspective as if you were standing at the entrance of the street. The house where you're staying is likely just behind the cart, on the right-hand side.*
 
@@ -26,9 +24,7 @@ In the 16th century, the Gobelin family established dyeing workshops in the area
 
 In the latter half of the 20th century, the arrondissement experienced further changes with urban renewal projects, including the "Italie 13" initiative inspired by Le Corbusier's urban theories. This project aimed to reshape areas around Butte-aux-Cailles, Rue Nationale, and Boulevard Vincent-Auriol, resulting in the construction of several high-rise buildings, particularly in the Olympiades district.
 
-<div style="max-width: 100%; height: auto;">
-  <img src="assets/img/terres_1_1.jpg" alt="Postcard Rue des Terres-au-Curé" style="width: 100%; height: auto;">
-</div>
+![Postcard Rue des Terres-au-Curé](assets/img/terres_2_1.jpg)
 
 *Children fetching water from the fountain, Rue des Terres-au-Curé, Paris 13th district, © Sabine Weiss, 1954.*
 
