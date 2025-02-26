@@ -46,6 +46,14 @@ History of the neighborhood, house, and 13th arrondissement
     History
 </a>
 
+### Public Transportation ####
+Tips for public transportation
+
+<a href="https://philalain.github.io/tac/transportation/" style="display:inline-block; padding:10px 20px; font-size:14px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px; width:100px">
+    Public Transportation
+</a>
+
+
 
 
 If you have any suggestions for improvement, we'd love to hear them! 😊
