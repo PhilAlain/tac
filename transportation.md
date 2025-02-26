@@ -2,12 +2,12 @@
 
 Our **Artist's Home** is well-served by public transportation, including easy connections to central Paris and both major airports.
 
-## IDF Mobilites ##
+## IDF Mobilites App ##
 
 This is the official app to download (iOS & Android).
 If your phone has NFC, you can buy and validate tickets directly.
 
-**What you can do**
+**What you can do with the app**
 
 Buy and store metro, bus, tram, RER, and airport tickets directly on your phone.
 Use Navigo Easy or Navigo Weekly/Monthly passes.
