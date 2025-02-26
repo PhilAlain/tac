@@ -40,6 +40,13 @@ How to use your keys
     Keys
 </a>
 
+### Waste & Recycling ####
+Waste and Recycling solutions
+
+<a href="https://philalain.github.io/tac/waste/" style="display:inline-block; padding:10px 20px; font-size:14px; color:#fff; background-color:#AAAAAA; text-align:center; text-decoration:none; border-radius:5px; width:100px">
+    Waste & Recycling
+</a>
+
 ### WiFi ####
 How could we live without Internet 
 
