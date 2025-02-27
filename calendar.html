@@ -6,13 +6,10 @@
     <title>Calendar</title>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            fetch('https://api.lodgify.com/v2/availability/473626?start=2025-01-01%2000%3A00%3A00&end=2025-06-01%2000%3A00%3A00&includeDetails=false', {
-                method: 'GET',
-                headers: {
-                    'X-ApiKey': 'y9iO35MC3wScMhnoh7myCsrJO/F2JzLbKGEGaZcUtpLusMRGWIg4NnYWU4RgXlm6',
-                    'accept': 'application/json'
-                }
-                // cache: 'no-store' // Avoid caching issues
+            fetch('http://54.38.70.127:8080/api/lodgify/473626?start=2025-01-01T00:00:00&end=2025-06-01T00:00:00&includeDetails=false')
+                .then(response => response.json())
+                .then(data => console.log(data))
+                .catch(error => console.error('Error:', error));
             })
             .then(response => {
                 if (!response.ok) {
