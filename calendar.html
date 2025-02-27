@@ -9,24 +9,26 @@
     <h1>Calendar</h1>
     <div id="calendar"></div>
     <script>
-        fetch('https://api.lodgify.com/v2/availability/473626?start=2025-01-01%2000%3A00%3A00&end=2025-06-01%2000%3A00%3A00&includeDetails=false', {
-            headers: {
-                'X-ApiKey': 'y9iO35MC3wScMhnoh7myCsrJO/F2JzLbKGEGaZcUtpLusMRGWIg4NnYWU4RgXlm6',
-                'accept': 'application/json'
-            }
-        })
-        .then(response => response.json())
-        .then(data => {
-            const calendarDiv = document.getElementById('calendar');
-            data[0].periods.forEach(period => {
-                const eventDiv = document.createElement('div');
-                eventDiv.innerHTML = `<h3>${period.start} to ${period.end}</h3><p>Available: ${period.available ? 'Yes' : 'No'}</p>`;
-                calendarDiv.appendChild(eventDiv);
+        const corsProxy = 'https://cors-anywhere.herokuapp.com/';
+        const apiUrl = 'https://api.lodgify.com/v2/availability/473626?start=2025-01-01%2000%3A00%3A00&end=2025-06-01%2000%3A00%3A00&includeDetails=false';
+        const headers = {
+            'X-ApiKey': 'y9iO35MC3wScMhnoh7myCsrJO/F2JzLbKGEGaZcUtpLusMRGWIg4NnYWU4RgXlm6',
+            'accept': 'application/json'
+        };
+
+        fetch(corsProxy + apiUrl, { headers })
+            .then(response => response.json())
+            .then(data => {
+                const calendarDiv = document.getElementById('calendar');
+                data[0].periods.forEach(period => {
+                    const eventDiv = document.createElement('div');
+                    eventDiv.innerHTML = `<h3>${period.start} to ${period.end}</h3><p>Available: ${period.available ? 'Yes' : 'No'}</p>`;
+                    calendarDiv.appendChild(eventDiv);
+                });
+            })
+            .catch(error => {
+                console.error('There has been a problem with your fetch operation:', error);
             });
-        })
-        .catch(error => {
-            console.error('There has been a problem with your fetch operation:', error);
-        });
     </script>
 </body>
 </html>
