@@ -14,11 +14,11 @@ You can also put your waste between 4 PM and 6 PM when the bins are in the stree
 
 ## Waste Color Codes ##
 
-**Yellow bins** are for all packaging recycling
+**Yellow bins** are for all packaging recycling 🟡
 
-**Green or brown bins**  are for general waste
+**Green or brown bins**  are for general waste 🟢 🟤
 
-**White bins**  are for glass bottles
+**White bins**  are for glass bottles ⚪️ 
 
 
 There is also a green bin in the courtyard that you can take out, if needed.
