@@ -6,7 +6,7 @@
     <title>Calendar</title>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            fetch('http://54.38.70.127:8080/api/lodgify/473626?start=2025-01-01T00:00:00&end=2025-06-01T00:00:00&includeDetails=false')
+            fetch('http://54.38.70.127:8080/api/lodgify/473626?start=2025-01-01&end=2025-06-01&includeDetails=false')
                 .then(response => {
                     if (!response.ok) {
                         throw new Error(`HTTP error! Status: ${response.status}`);
@@ -15,7 +15,7 @@
                 })
                 .then(data => {
                     const calendarDiv = document.getElementById('calendar');
-                    if (data.length === 0) {
+                    if (!data || data.length === 0) {
                         calendarDiv.innerHTML = '<p>No data available</p>';
                         return;
                     }
