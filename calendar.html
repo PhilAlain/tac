@@ -6,7 +6,7 @@
     <title>Calendar</title>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            fetch('http://kryptolab.net:8080/api/lodgify/473626?start=2025-01-01&end=2025-06-01&includeDetails=false')
+            fetch('https://kryptolab.net:8080/api/lodgify/473626?start=2025-01-01&end=2025-06-01&includeDetails=false')
                 .then(response => {
                     if (!response.ok) {
                         throw new Error(`HTTP error! Status: ${response.status}`);
