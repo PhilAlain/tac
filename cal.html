@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Availability Calendar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .calendar-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        .month {
+            width: 250px;
+        }
+        .month h3 {
+            text-align: center;
+        }
+        .days {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 5px;
+            text-align: center;
+        }
+        .day {
+            padding: 5px;
+            border-radius: 4px;
+        }
+        .available {
+            background-color: lightgreen;
+        }
+        .unavailable {
+            background-color: lightcoral;
+            color: white;
+        }
+        .navigation {
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Availability</h1>
+    <div class="calendar-container" id="calendar"></div>
+    <div class="navigation">
+        <button id="prev">← Prev</button>
+        <button id="next">Next →</button>
+    </div>
+
+    <script>
+        let currentMonth = new Date().getMonth(); // Get the current month (0-11)
+        let currentYear = new Date().getFullYear();
+        const calendarDiv = document.getElementById('calendar');
+
+        function fetchAvailability(year, month, callback) {
+            const startDate = `${year}-${String(month + 1).padStart(2, '0')}-01`;
+            const endDate = new Date(year, month + 3, 0).toISOString().split('T')[0]; // Get last date of 3rd month
+            const apiUrl = `https://kryptolab.net:8080/api/lodgify/473626?start=${startDate}&end=${endDate}&includeDetails=false`;
+
+            fetch(apiUrl)
+                .then(response => {
+                    if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+                    return response.json();
+                })
+                .then(data => callback(data))
+                .catch(error => {
+                    console.error('Fetch error:', error);
+                    calendarDiv.innerHTML = `<p style="color: red;">Error loading calendar data</p>`;
+                });
+        }
+
+        function generateCalendar(year, month, availabilityData) {
+            calendarDiv.innerHTML = ""; // Clear previous calendar
+            for (let i = 0; i < 3; i++) { // Show 3 months
+                const monthIndex = (month + i) % 12;
+                const yearOffset = month + i >= 12 ? 1 : 0;
+                const displayYear = year + yearOffset;
+
+                const monthDiv = document.createElement('div');
+                monthDiv.className = 'month';
+                monthDiv.innerHTML = `<h3>${new Date(displayYear, monthIndex).toLocaleString('default', { month: 'long' })} ${displayYear}</h3>`;
+                
+                const daysDiv = document.createElement('div');
+                daysDiv.className = 'days';
+                
+                const firstDay = new Date(displayYear, monthIndex, 1).getDay(); // Start day (0=Sun, 6=Sat)
+                const daysInMonth = new Date(displayYear, monthIndex + 1, 0).getDate();
+
+                // Add empty days before the start of the month
+                for (let j = 0; j < firstDay; j++) {
+                    daysDiv.innerHTML += `<div class="day"></div>`;
+                }
+
+                // Fill the month with actual days
+                for (let day = 1; day <= daysInMonth; day++) {
+                    const fullDate = `${displayYear}-${String(monthIndex + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+                    let isAvailable = false;
+                    let isUnavailable = false;
+
+                    // Check availability
+                    availabilityData.forEach(period => {
+                        const start = new Date(period.start);
+                        const end = new Date(period.end);
+                        const currentDate = new Date(fullDate);
+                        if (currentDate >= start && currentDate <= end) {
+                            if (!period.available) isUnavailable = true;
+                            else isAvailable = true;
+                        }
+                    });
+
+                    let dayClass = "day";
+                    if (isUnavailable) dayClass += " unavailable";
+                    else if (isAvailable) dayClass += " available";
+
+                    daysDiv.innerHTML += `<div class="${dayClass}">${day}</div>`;
+                }
+
+                monthDiv.appendChild(daysDiv);
+                calendarDiv.appendChild(monthDiv);
+            }
+        }
+
+        function updateCalendar() {
+            fetchAvailability(currentYear, currentMonth, (data) => {
+                generateCalendar(currentYear, currentMonth, data[0]?.periods || []);
+            });
+        }
+
+        document.getElementById('next').addEventListener('click', () => {
+            currentMonth += 3;
+            if (currentMonth >= 12) {
+                currentYear += Math.floor(currentMonth / 12);
+                currentMonth = currentMonth % 12;
+            }
+            updateCalendar();
+        });
+
+        document.getElementById('prev').addEventListener('click', () => {
+            currentMonth -= 3;
+            if (currentMonth < 0) {
+                currentYear -= 1;
+                currentMonth += 12;
+            }
+            updateCalendar();
+        });
+
+        updateCalendar();
+    </script>
+
+</body>
+</html>
