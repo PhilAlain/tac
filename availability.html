@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vacation Rental Availability</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Calendar Styles */
+        .calendar-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            text-align: center;
+        }
+
+        .calendar-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .calendar {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 5px;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #f8f8f8;
+            border-radius: 8px;
+        }
+
+        .day {
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 1rem;
+            min-height: 50px;
+        }
+
+        .available { background: #a7f3a7; } /* Green for available dates */
+        .unavailable { background: #f3a7a7; color: white; } /* Red for booked dates */
+        .past { background: #ccc; } /* Grey for past dates */
+        .price { font-size: 0.9rem; color: #333; font-weight: bold; margin-top: 3px; }
+
+        /* Navigation Buttons */
+        .nav-btn {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .nav-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .day { font-size: 0.8rem; padding: 8px; }
+        }
+    </style>
+</head>
+<body>
+
+<header class="page-header">
+    <h1 class="project-name">Vacation Rental Availability</h1>
+    <h2 class="project-tagline">Check Available Dates & Prices</h2>
+</header>
+
+<main class="main-content">
+    <div class="calendar-container">
+        <div class="calendar-header">
+            <button id="prevMonth" class="nav-btn">&lt; Prev</button>
+            <h2 id="calendar-title"></h2>
+            <button id="nextMonth" class="nav-btn">Next &gt;</button>
+        </div>
+        <div class="calendar" id="calendar"></div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <span class="site-footer-credits">Powered by Lodgify API</span>
+</footer>
+
+<script>
+    const API_BASE = "https://kryptolab.net:8080/api.lodgify.com/v2";
+    const propertyId = 473626;
+    const roomTypeId = 539868;
+
+    let currentYear = new Date().getFullYear();
+    let currentMonth = new Date().getMonth();
+
+    function getTodayDate() {
+        return new Date().toISOString().split("T")[0];
+    }
+
+    function getOneYearLaterDate() {
+        let future = new Date();
+        future.setFullYear(future.getFullYear() + 1);
+        return future.toISOString().split("T")[0];
+    }
+
+    async function fetchAvailability(start, end) {
+        const url = `${API_BASE}/availability?start=${start}&end=${end}&includeDetails=false`;
+        const response = await fetch(url);
+        return response.json();
+    }
+
+    async function fetchPrices(start, end) {
+        const url = `${API_BASE}/rates/calendar?RoomTypeId=${roomTypeId}&HouseId=${propertyId}&StartDate=${start}&EndDate=${end}`;
+        const response = await fetch(url);
+        return response.json();
+    }
+
+    function generateCalendar(year, month, availability, prices) {
+        const calendar = document.getElementById("calendar");
+        const title = document.getElementById("calendar-title");
+        calendar.innerHTML = ""; // Clear previous calendar
+
+        const firstDay = new Date(year, month, 1);
+        const lastDay = new Date(year, month + 1, 0);
+        title.textContent = firstDay.toLocaleString('default', { month: 'long' }) + " " + year;
+
+        const today = new Date(getTodayDate());
+        const oneYearLater = new Date(getOneYearLaterDate());
+
+        document.getElementById("prevMonth").disabled = new Date(year, month, 1) < today;
+        document.getElementById("nextMonth").disabled = new Date(year, month, 1) > oneYearLater;
+
+        // Fill in empty cells before first day
+        for (let i = 0; i < firstDay.getDay(); i++) {
+            const emptyCell = document.createElement("div");
+            emptyCell.classList.add("day");
+            calendar.appendChild(emptyCell);
+        }
+
+        // Generate days of the month
+        for (let day = 1; day <= lastDay.getDate(); day++) {
+            const currentDate = new Date(year, month, day);
+            const dateString = currentDate.toISOString().split("T")[0];
+            const dayCell = document.createElement("div");
+            dayCell.classList.add("day");
+
+            // Determine availability
+            let isAvailable = false;
+            let isPast = currentDate < today;
+            let isBeyondOneYear = currentDate > oneYearLater;
+
+            availability.forEach(period => {
+                if (dateString >= period.start && dateString < period.end) {
+                    isAvailable = period.available === 1;
+                }
+            });
+
+            // Determine pricing
+            let priceText = "";
+            prices.calendar_items.forEach(item => {
+                if (item.date === dateString) {
+                    priceText = `${item.prices[0].price_per_day}€`;
+                }
+            });
+
+            // Apply styles
+            if (isPast || isBeyondOneYear) {
+                dayCell.classList.add("past");
+            } else if (!isAvailable) {
+                dayCell.classList.add("unavailable");
+            } else {
+                dayCell.classList.add("available");
+            }
+
+            dayCell.innerHTML = `<div>${day}</div>`;
+            if (priceText) {
+                dayCell.innerHTML += `<div class="price">${priceText}</div>`;
+            }
+
+            calendar.appendChild(dayCell);
+        }
+    }
+
+    async function loadCalendar(year, month) {
+        const start = new Date(year, month, 1).toISOString().split("T")[0];
+        const end = new Date(year, month + 1, 0).toISOString().split("T")[0];
+
+        const availabilityData = await fetchAvailability(start, end);
+        const priceData = await fetchPrices(start, end);
+
+        generateCalendar(year, month, availabilityData[0].periods, priceData);
+    }
+
+    document.getElementById("prevMonth").addEventListener("click", () => {
+        currentMonth--;
+        if (currentMonth < 0) {
+            currentMonth = 11;
+            currentYear--;
+        }
+        loadCalendar(currentYear, currentMonth);
+    });
+
+    document.getElementById("nextMonth").addEventListener("click", () => {
+        currentMonth++;
+        if (currentMonth > 11) {
+            currentMonth = 0;
+            currentYear++;
+        }
+        loadCalendar(currentYear, currentMonth);
+    });
+
+    loadCalendar(currentYear, currentMonth);
+</script>
+
+</body>
+</html>
