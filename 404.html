@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Redirecting...</title>
-    <meta http-equiv="refresh" content="0; URL=https://docs.artisthome.fr{{ page.path | replace: '/index.html', '' | replace: 'index.html', '' | replace: '/404.html', '' | replace: '404.html', '' }}">
     <script type="text/javascript">
-        window.location.href = "https://docs.artisthome.fr" + window.location.pathname.replace("/404.html", "");
+        if (window.location.pathname.endsWith("/")) {
+            window.location.href = window.location.href.slice(0, -1);
+        } else {
+            window.location.href = "https://docs.artisthome.fr" + window.location.pathname.replace("/404.html", "");
+        }
     </script>
 </head>
 <body>
