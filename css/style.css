@@ -12,7 +12,7 @@ body {
 /* Header */
 .page-header {
     padding: 3rem 0;
-    background: url('/tac/assets/img/banner_6.jpg') center/cover no-repeat;
+    background: url('assets/img/banner_6.jpg') center/cover no-repeat;
     text-align: center;
     color: #DDEBF7;
     display: flex;
