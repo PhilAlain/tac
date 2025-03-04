@@ -4,5 +4,6 @@ description: "Experience a house in Paris"
 show_downloads: false
 markdown: kramdown
 permalink: pretty
+permalink: /:categories/:title
 github:
   is_project_page: false
