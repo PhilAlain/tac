@@ -35,10 +35,13 @@ body {
     font-weight: bold; /* Bold characters */
     margin-top: -10px; /* Bring tagline closer to title */
 }
-
-@media (max-width: 768px) {
-
+.button-home .tagline {
+    font-size: 1rem; /* Decreased font size */
+    color: #DDEBF7; /* Same color as House Manual text */
+    font-weight: bold; /* Bold characters */
+    margin-top: -10px; /* Bring tagline closer to title */
 }
+
 
 .page-header {
     position: relative;
@@ -111,7 +114,10 @@ h2 {
     }
     
     .button-home {
-        position: static;
+        position: absolute; /* Ensure position is absolute on mobile */
+        top: 10px; /* Adjust top position */
+        left: 10px; /* Align to the left */
+        width: calc(100% - 20px); /* Ensure it fits within the screen width */
         margin-bottom: 20px; /* Add space below button */
     }
     
