@@ -106,10 +106,7 @@ h2 {
     }
     
     .button-home {
-        position: absolute; /* Ensure position is absolute on mobile */
-        top: 10px; /* Adjust top position */
-        left: 10px; /* Align to the left */
-        width: calc(100% - 20px); /* Ensure it fits within the screen width */
+        position: static;
         margin-bottom: 20px; /* Add space below button */
     }
     
