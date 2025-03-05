@@ -8,7 +8,29 @@ body {
     margin: 0;
     padding: 0;
 }
+/* Button Home */
+.button-home {
+    background: transparent;
+    border: none;
+    color: white; /* Adjust based on your design */
+    font-family: 'YourPreferredFont', sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
 
+.button-home .title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.button-home .tagline {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.button-home:hover {
+    text-decoration: underline;
+}
 /* Header */
 .page-header {
     padding: 3rem 0;
