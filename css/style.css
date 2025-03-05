@@ -33,7 +33,6 @@ body {
     font-size: 1rem; /* Decreased font size */
     color: #DDEBF7; /* Same color as House Manual text */
     font-weight: bold; /* Bold characters */
-    margin-top: -10px; /* Bring tagline closer to title */
 }
 
 .page-header {
