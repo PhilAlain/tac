@@ -20,17 +20,19 @@ body {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
     color: #DDEBF7; /* Same color as House Manual text */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Same text shadow */
+    text-align: left; /* Justify text to the left */
 }
 
 .button-home .title {
-    font-size: 1.5rem; /* Increased font size */
+    font-size: 2rem; /* Increased font size */
     font-weight: bold;
     color: #DDEBF7; /* Same color as House Manual text */
 }
 
 .button-home .tagline {
-    font-size: 1.2rem; /* Increased font size */
+    font-size: 1rem; /* Decreased font size */
     color: #DDEBF7; /* Same color as House Manual text */
+    font-weight: bold; /* Bold characters */
 }
 
 .page-header {
