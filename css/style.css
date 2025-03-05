@@ -14,22 +14,23 @@ body {
     top: 10px;
     left: 10px;
     text-decoration: none;
-    color: inherit;
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     padding: 10px 20px;
     border-radius: 5px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
+    color: #DDEBF7; /* Same color as House Manual text */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Same text shadow */
 }
 
 .button-home .title {
     font-size: 1.5rem; /* Increased font size */
     font-weight: bold;
-    color: #FFFFFF; /* White text color */
+    color: #DDEBF7; /* Same color as House Manual text */
 }
 
 .button-home .tagline {
     font-size: 1.2rem; /* Increased font size */
-    color: #FFFFFF; /* White text color */
+    color: #DDEBF7; /* Same color as House Manual text */
 }
 
 .page-header {
