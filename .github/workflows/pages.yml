@@ -5,10 +5,9 @@ on:
     branches: [ main ]
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: [self-hosted, devlin10]
     steps:
       - uses: actions/checkout@v4
-      - name: Build website
       
       # Add additional build/deploy steps here
